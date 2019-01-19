@@ -27,7 +27,7 @@ in your crontab to run this script every five minutes.
 
 If you run a bash prompt as an Administrator, then you can issue a command like
 
-# grep "EstimatedChargeRemaining" /var/log/messages | less
+grep "EstimatedChargeRemaining" /var/log/messages | less
 
 You should see the battery charge decrease once the AC is disconnected.
 ```
