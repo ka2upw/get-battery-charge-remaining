@@ -30,7 +30,7 @@ If you run a bash prompt as an Administrator, then you can issue a command like
 # grep "EstimatedChargeRemaining" /var/log/messages | less
 
 You should see the battery charge decrease once the AC is disconnected.
-
+```
 Aug 12 22:35:01 YourMachineName YourUserName: EstimatedChargeRemaining 100
 Aug 12 22:40:01 YourMachineName YourUserName: EstimatedChargeRemaining 95
 Aug 12 22:45:02 YourMachineName YourUserName: EstimatedChargeRemaining 89
@@ -44,9 +44,11 @@ Aug 12 23:20:02 YourMachineName YourUserName: EstimatedChargeRemaining 38
 Aug 12 23:25:02 YourMachineName YourUserName: EstimatedChargeRemaining 27
 Aug 12 23:30:02 YourMachineName YourUserName: EstimatedChargeRemaining 20
 Aug 12 23:35:01 YourMachineName YourUserName: EstimatedChargeRemaining 18
+```
 
 And then it will increase again once you plug the AC power back into the laptop.
 
+```
 Aug 12 23:40:02 YourMachineName YourUserName: EstimatedChargeRemaining 30
 Aug 12 23:45:01 YourMachineName YourUserName: EstimatedChargeRemaining 42
 Aug 12 23:50:01 YourMachineName YourUserName: EstimatedChargeRemaining 53
@@ -63,7 +65,7 @@ Aug 13 00:40:01 YourMachineName YourUserName: EstimatedChargeRemaining 97
 Aug 13 00:45:02 YourMachineName YourUserName: EstimatedChargeRemaining 98
 Aug 13 00:50:01 YourMachineName YourUserName: EstimatedChargeRemaining 99
 Aug 13 00:55:02 YourMachineName YourUserName: EstimatedChargeRemaining 100
+```
 
-If you do this periodically, you will probably notice that the number of minutes you can run off the 
-battery will be decreasing.
+If you do this periodically, you will probably notice that the number of minutes you can run off the battery will be decreasing.
 
